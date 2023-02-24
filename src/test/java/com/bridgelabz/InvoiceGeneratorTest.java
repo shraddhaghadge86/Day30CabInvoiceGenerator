@@ -1,5 +1,5 @@
 package com.bridgelabz;
-import org.InvoiceGenerator;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -9,8 +9,7 @@ public class InvoiceGeneratorTest {
     InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
     @BeforeAll
     public static void printBeforeAllMsg() {
-        System.out.println("Welcome to the Cab Invoice Generator Program");
-        System.out.println("---------------------------------------------");
+        System.out.println("-------Welcome to the Cab Invoice Generator Program-------");
     }
     @AfterEach
     public void PrintAfterEachTestCasePass(){
@@ -29,5 +28,11 @@ public class InvoiceGeneratorTest {
         double time = 1;
         double fare = invoiceGenerator.calculateFare(distance, time);
         Assert.assertEquals(5, fare, 0.0);
+    }
+    @Test
+    public void givenMultipleRides_shouldReturn_invoiceCost() {
+        Ride[] rides = { new Ride(2.0, 5), new Ride(0.1, 1) };
+        double fare = invoiceGenerator.calculateFareForMultipleRides(rides);
+        Assert.assertEquals(30.0, fare, 0.0);
     }
 }

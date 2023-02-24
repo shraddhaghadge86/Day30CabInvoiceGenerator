@@ -1,4 +1,4 @@
-package org;
+package com.bridgelabz;
 
 public class InvoiceGenerator {
     private static final double Min_Cost_Per_KiloMeter = 10;
@@ -9,6 +9,14 @@ public class InvoiceGenerator {
         double cost = distance * Min_Cost_Per_KiloMeter + time * Cost_per_Time;
         if (cost < Minimum_Fare)
             return Minimum_Fare;
+        return cost;
+    }
+
+    public double calculateFareForMultipleRides(Ride[] rides) {
+        double cost = 0;
+        for (Ride ride : rides) {
+            cost = cost + this.calculateFare(ride.distance, ride.time);
+        }
         return cost;
     }
 }
