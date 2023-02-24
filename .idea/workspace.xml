@@ -14,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/../Day21MoodAnalyzer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day21MoodAnalyzer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day21MoodAnalyzer/src/main/java/com/bridgelabz/MoodAnalyzerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day21MoodAnalyzer/src/main/java/com/bridgelabz/MoodAnalyzerMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Day21MoodAnalyzer/src/test/java/com/bridgelabz/MoodAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Day21MoodAnalyzer/src/test/java/com/bridgelabz/MoodAnalyzerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/InvoiceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/InvoiceGeneratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "D:/Java/Program243/Day30CabInvoiceGenerator/src/main/java/com/bridgelabz",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
