@@ -25,5 +25,6 @@ public class InvoiceDescription {
         if (totalNoOfRide != other.totalNoOfRide)
             return false;
         return true;
+
     }
 }
